@@ -1,0 +1,78 @@
+.contanerto{
+    display: flex;
+    justify-content: center;
+    width: auto;
+    max-height: 100vh;
+    
+    
+}
+.contanet{
+    padding-top: 10px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue;
+    width: 50%;
+    min-height: 50%;
+    border-radius: 10px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    
+   
+}
+.header{
+    font-size: .8em;
+    text-align: center;
+    
+}
+.list{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+   
+}
+.list ul li{
+    margin-bottom: 10px;
+    padding: 5px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    text-transform: capitalize;
+    cursor: pointer;
+    overflow-wrap: break-word;
+}
+.done{
+    text-decoration: line-through;
+}
+.actions{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+.actions button{
+    text-transform: capitalize;
+    color: #6495ED;
+    background-color: transparent;
+    font-size: 15px;
+    margin-top: 20px;
+    border-radius: 25px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;  
+    cursor: pointer;
+    border: solid #6495ED 1px;
+
+    
+}
+#input1{
+    font-size: large;
+}
+.item{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    overflow-wrap: break-word;
+    cursor: pointer;
+}
+.item li{
+    width: 70%;
+}

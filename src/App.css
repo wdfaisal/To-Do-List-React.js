@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Cairo:wght@200;300;400;500;600;700;800;900;1000&family=Oswald:wght@600&family=Raleway:wght@700;800&family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,500&display=swap');
+
+*{
+    font-family: 'Cairo', sans-serif;
+}
+
+
+.App{
+    background-color: #EEEEEE;
+    min-height: 100vh;
+    overflow: hidden;
+}
